@@ -11,8 +11,6 @@ Firstly,thanks for Khoa Pham! This Project is very good!
 4）newFile：创建一个新的文本文件。<br>
 5）newFolder：创建一个新的文件夹。<br>
 
-![](Images/screenshot3.png)<br>
-
 ![](Images/go2.gif)<br>
 
 安装方法：<br>
