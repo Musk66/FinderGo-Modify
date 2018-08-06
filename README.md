@@ -14,7 +14,7 @@ Firstly,thanks for Khoa Pham! This Project is very good!
 ![](Images/go2.gif)<br>
 
 安装方法：<br>
-Get the binary from https://github.com/Musk66/FinderGo-modify/releases<br>
+Get the binary from https://github.com/Musk66/FinderGo-Modify/tree/master/release<br>
 将“FinderGo.app”拖入Applications文件夹，并将“Script”文件夹下的AppleScript脚本复制到文件夹“/Users/用户名/Library/Application Scripts/com.fantageek.FinderGo.FinderSyncExtension/目录下”，进入LaunchPad中找到FinderGo，并点击启动，此时Finder的顶部工具栏中就会出现FinderGo(🐢)的按钮，点击按钮即可根据需要选择不同的功能。<br>
 
 ----------------------------------------------------------------------------------------------------------------------------
