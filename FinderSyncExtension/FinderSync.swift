@@ -58,7 +58,7 @@ class FinderSync: FIFinderSync, NSMenuDelegate {
     //    menu.addItem(withTitle: "iTerm", action: #selector(openiTerm(_:)), keyEquivalent: "")
     //    menu.addItem(withTitle: "Hyper", action: #selector(openHyper(_:)), keyEquivalent: "")
     menu.addItem(withTitle: "VSCode", action: #selector(openVSCode(_:)), keyEquivalent: "")
-    menu.addItem(withTitle: "SublimeText", action: #selector(openSublimeText(_:)), keyEquivalent: "")
+//     menu.addItem(withTitle: "SublimeText", action: #selector(openSublimeText(_:)), keyEquivalent: "")
     menu.addItem(withTitle: "Zip", action: #selector(openArchive(_:)), keyEquivalent: "")
     menu.addItem(withTitle: "NewFolder", action: #selector(newFolder(_:)), keyEquivalent: "")
     menu.addItem(withTitle: "NewFile", action: #selector(newFile(_:)), keyEquivalent: "")
@@ -95,9 +95,9 @@ class FinderSync: FIFinderSync, NSMenuDelegate {
         run(fileName: "vscode")
     }
     
-    @IBAction func openSublimeText(_ sender: AnyObject?) {
-        run(fileName: "sublimetext")
-    }
+//     @IBAction func openSublimeText(_ sender: AnyObject?) {
+//         run(fileName: "sublimetext")
+//     }
     //注意：在终端中测试命令的时候只需要1个“\”，卸载AppleScipt脚本中则需要2个“\”，请注意中间空格部分的处理。
     //例如：终端中：open -a Archive\ Utility /Users/tiger/documents/github
     //do shell script " open -a Archive\\ Utility " & quoted form of cwd
