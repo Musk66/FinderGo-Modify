@@ -98,7 +98,10 @@ class FinderSync: FIFinderSync, NSMenuDelegate {
     @IBAction func openSublimeText(_ sender: AnyObject?) {
         run(fileName: "sublimetext")
     }
-    
+    //注意：在终端中测试命令的时候只需要1个“\”，卸载AppleScipt脚本中则需要2个“\”，请注意中间空格部分的处理。
+    //例如：终端中：open -a Archive\ Utility /Users/tiger/documents/github
+    //do shell script " open -a Archive\\ Utility " & quoted form of cwd
+    //另外，可以通过修改归档工具的偏好设置来修改打包后的文件格式，比如：修改为zip
     @IBAction func openArchive(_ sender: AnyObject?) {
         run(fileName: "archive")
     }
