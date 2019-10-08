@@ -59,9 +59,9 @@ class FinderSync: FIFinderSync, NSMenuDelegate {
     //    menu.addItem(withTitle: "Hyper", action: #selector(openHyper(_:)), keyEquivalent: "")
     menu.addItem(withTitle: "VSCode", action: #selector(openVSCode(_:)), keyEquivalent: "")
 //     menu.addItem(withTitle: "SublimeText", action: #selector(openSublimeText(_:)), keyEquivalent: "")
-    menu.addItem(withTitle: "Zip", action: #selector(openArchive(_:)), keyEquivalent: "")
-    menu.addItem(withTitle: "NewFolder", action: #selector(newFolder(_:)), keyEquivalent: "")
-    menu.addItem(withTitle: "NewFile", action: #selector(newFile(_:)), keyEquivalent: "")
+    menu.addItem(withTitle: "压缩成Zip", action: #selector(openArchive(_:)), keyEquivalent: "")
+    menu.addItem(withTitle: "新建文件夹", action: #selector(newFolder(_:)), keyEquivalent: "")
+    menu.addItem(withTitle: "新建文件", action: #selector(newFile(_:)), keyEquivalent: "")
 
     return menu
   }
